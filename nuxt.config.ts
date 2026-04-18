@@ -4,6 +4,7 @@ import { ref } from "vue";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   app: {
+    baseURL: '/learnova/',
     head: {
       htmlAttrs: {
         dir: "rtl",
