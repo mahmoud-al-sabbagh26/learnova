@@ -8,7 +8,7 @@
           <span><v-icon color="red">mdi-school</v-icon> احصل على شهادة معتمدة</span>
           <span><v-icon color="secondary">mdi-format-list-checks</v-icon> اكتسب مهارات تؤهلك لسوق العمل</span>
         </div>
-        <v-btn color="primary" class="text-golden mt-10 py-6 mx-auto mx-md-0" width="150" style="font-size: 20px;" rounded>ابدا التعلم</v-btn>
+        <v-btn color="primary" class="text-golden mt-10 py-6 mx-auto mx-md-0" width="150" style="font-size: 20px;" rounded><NuxtLink :to="{name: 'courses'}" class="text-golden">ابدأ التعلم</NuxtLink></v-btn>
       </v-container>
     </v-sheet>
     <div class="shaps bg-secondary">
@@ -95,7 +95,7 @@
       </v-row>
       <v-row>
         <v-col class="text-center">
-          <v-btn class="text-golden mt-10" color="primary" rounded>عرض جميع الكورسات<v-icon class>mdi-chevron-double-left</v-icon></v-btn>
+          <v-btn class="text-golden mt-10" color="primary" rounded><NuxtLink :to="{name: 'courses'}" class="text-golden">عرض جميع الكورسات<v-icon class>mdi-chevron-double-left</v-icon></NuxtLink></v-btn>
         </v-col>
       </v-row>
     </v-container>

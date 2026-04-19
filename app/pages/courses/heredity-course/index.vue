@@ -49,7 +49,7 @@
                     <v-col cols="12" md="4">
                         <v-card class="card" elevation="4" >
                             <video controls style="max-width: 100%;">
-                                <source :src="video">
+                                <source src="/heredity.mp4" type="video/mp4">
                             </video>
                             <v-card-title class="text-primary font-weight-bold mt-2">الصفات الورائية والطفرات</v-card-title>
                             <v-card-text class="py-0">
@@ -194,8 +194,6 @@
 
 <script setup>
 import ran from "@/assets/imgs/rect.png";
-import video from "@/assets/imgs/اساسيات الوراثة وتحديد شكل الابناء(720P_HD).mp4";
-
 import { ref } from 'vue';
 
 const panel = ref(null);
