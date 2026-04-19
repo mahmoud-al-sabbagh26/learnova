@@ -166,7 +166,7 @@
   <div class="cta pb-0">
     <div class="overlay pb-0 mb-0"></div>
     <video autoplay muted loop class="video">
-      <source :src="video">
+      <source src="/students.mp4">
     </video>
     <div class="text text-center pb-0 mb-0">
       <h2 class="text-center text-white text-md-display-small font-weight-bold text-sm-headline-large">ابدأ رحلتك التعليمية الآن</h2>
@@ -187,7 +187,6 @@ import englishImg from "@/assets/imgs/english.jpg";
 import mathsImg from "@/assets/imgs/MATHS.jpg";
 import deutschImg from "@/assets/imgs/deutsch.jpg";
 import aiImg from "@/assets/imgs/AI.jpg";
-import video from "@/assets/imgs/students.mp4";
 import about from "@/assets/imgs/Online learning-amico 1.svg";
 
 import { ref } from "vue";

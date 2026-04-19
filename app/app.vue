@@ -44,11 +44,11 @@
     <v-footer color="primary">
       <v-container>
         <v-row>
-          <v-col>
+          <v-col cols="6" md="3">
             <h2 class="text-center">Learnova</h2>
             <p class="text-body-medium">منصة تعليمية تهدف لتقديم محتوى تفاعلي يساعد الطلاب على التعلم بسهولة</p>
           </v-col>
-          <v-col>
+          <v-col cols="6" md="3">
             <h2 class="text-golden">روابط سريعة</h2>
             <ul style="list-style: none;padding: 0;">
               <li><v-icon>mdi-chevron-double-left</v-icon> الرئيسية</li>
@@ -57,7 +57,7 @@
               <li><v-icon>mdi-chevron-double-left</v-icon> تواصل معنا</li>
             </ul>
           </v-col>
-          <v-col>
+          <v-col cols="6" md="3">
             <h2 class="text-golden">الكورسات</h2>
             <ul style="list-style: none;padding: 0;">
               <li>علوم</li>
@@ -66,7 +66,7 @@
               <li>برمجة وذكاء اصطناعي</li>
             </ul>
           </v-col>
-          <v-col>
+          <v-col cols="6" md="3">
             <h2 class="text-golden">تواصل معنا</h2>
             <div class="icons d-flex justify-space-between ga-2">
               <v-icon style="font-size: 50px;cursor: pointer;">mdi-facebook</v-icon>
